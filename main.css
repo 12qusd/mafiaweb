@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+}
+.left {
+	width: 47%;
+	border-style: dotted;
+}
+.middle {
+	width: 5%;
+}
+.right {
+	width: 47%;
+	border-style: dotted;
+}
+hr {
+	border-style: none none dotted;
+}
+.town {
+	color: green;
+}
+.mafia {
+	color: red;
+}
+.triad {
+	color: blue;
+}
+.neutral {
+	color: grey;
+}
+.total {
+	color: purple;
+}
+h3 {
+	padding: 0px;
+	margin: 0px;
+}

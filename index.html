@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<title>Mafia Setup Generator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			Number of Town Government: <input type="number"  value="0" id="towngovernment" /><br>
+			Number of Town Investigative: <input type="number"  value="0" id="towninvestigative" /><br>
+			Number of Town Killing: <input type="number"  value="0" id="townkilling" /><br>
+			Number of Town Power: <input type="number"  value="0" id="townpower" /><br>
+			Number of Town Protective: <input type="number"  value="0" id="townprotective" /><br>
+			Number of Town Random: <input type="number"  value="0" id="townrandom" /><br>
+			<hr>
+			Number of Mafia Support: <input type="number" value="0" id="mafiasupport" /><br>
+			Number of Mafia Killing: <input type="number" value="0" id="mafiakilling" /><br>
+			Number of Mafia Deception: <input type="number" value="0" id="mafiadeception" /><br>
+			Number of Mafia Random: <input type="number" value="0" id="mafiarandom" /><br>
+			<hr>
+			Number of Triad Support: <input type="number" value="0" id="triadsupport" /><br>
+			Number of Triad Killing: <input type="number" value="0" id="triadkilling" /><br>
+			Number of Triad Deception: <input type="number" value="0" id="triaddeception" /><br>
+			Number of Triad Random: <input type="number" value="0" id="triadrandom" /><br>
+			<hr>
+			Number of Neutral Benign: <input type="number" value="0" id="neutralbenign" /><br>
+			Number of Neutral Evil: <input type="number" value="0" id="neutralevil" /><br>
+			Number of Neutral Killing: <input type="number" value="0" id="neutralkilling" /><br>
+			Number of Neutral Random: <input type="number" value="0" id="neutralrandom" /><br>
+			<hr>
+			<button onclick="generate()">Generate Setup</button>
+			<button onclick="setzero()">Set Values to 0</button>
+		</div>
+		<div class="middle">
+		</div>
+		<div class="right">
+			<div id="setup">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
